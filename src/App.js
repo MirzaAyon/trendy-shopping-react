@@ -1,13 +1,19 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Menubar from './Components/Menubar/Menubar';
+
 
 function App() {
+
   return (
     <div className="App">
-      <h1 className='text-danger'>Trendy Shop</h1>
+      <Menubar></Menubar>
+
+
     </div>
   );
 }
 
 export default App;
+

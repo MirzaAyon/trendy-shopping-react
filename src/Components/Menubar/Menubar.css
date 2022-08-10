@@ -1,0 +1,10 @@
+.menu-container {
+    list-style: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: brown;
+}
+
+.menu-container li:hover {
+    color: orange;
+}
